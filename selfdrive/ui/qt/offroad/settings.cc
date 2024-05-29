@@ -331,8 +331,8 @@ DevicePanel::DevicePanel(SettingsWindow *parent) : ListWidget(parent) {
       {"DH_SCC2", "DH, scc2, radar Long", "apilot_default_dh_scc2.json"},
       {"EV6_VLONG", "EV6 vision Long", "apilot_default_ev6_vlong.json"},
       //{"IONIQ5_VLONG", "IONIQ5 vision Long", "apilot_default_ioniq5_vlong.json"},
-      {"GM_VOLT", "GM VOLT radar Long", "apilot_default_volt_ev.json"}
-      {"K8_HEV_LONG", "K8_HEV_2024, scc2, Long modify_1", "apilot_default_k8_hev.json"},
+      {"GM_VOLT", "GM VOLT radar Long", "apilot_default_volt_ev.json"},
+      {"K8_HEV_LONG", "K8_HEV_2024, scc2, Long modify_1", "apilot_default_k8_hev.json"}
   };
 
   for (const auto& setting : settings) {
