@@ -320,6 +320,7 @@ DevicePanel::DevicePanel(SettingsWindow* parent) : ListWidget(parent) {
     #poweroff_btn { height: 120px; border-radius: 15px; background-color: #E22C2C; }
     #poweroff_btn:pressed { background-color: #FF2424; }
   )");
+
     addItem(power_layout);
 
 
@@ -585,6 +586,7 @@ CarrotPanel::CarrotPanel(QWidget* parent) : QWidget(parent) {
 
     latLongToggles = new ListWidget(this);
     latLongToggles->addItem(new CValueControl("AutoLaneChangeSpeed", "LaneChangeSpeed(20)", "", "../assets/offroad/icon_road.png", 1, 100, 5));
+
     latLongToggles->addItem(new CValueControl("UseLaneLineSpeed", "Laneline mode speed(0)", "Laneline mode, lat_mpc control used", "../assets/offroad/icon_shell.png", 0, 200, 5));
     latLongToggles->addItem(new CValueControl("UseLaneLineCurveSpeed", "Laneline mode curve speed(0)", "Laneline mode, high speed only", "../assets/offroad/icon_shell.png", 0, 200, 5));
     latLongToggles->addItem(new CValueControl("AdjustLaneOffset", "AdjustLaneOffset(0)cm", "", "../assets/offroad/icon_shell.png", 0, 500, 5));
